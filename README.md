@@ -1,9 +1,16 @@
-## ZipInfo REST API ##
+## ZipInfo REST API
 
 ZipInfo Rest API provides location information for a supplied U.S. Zip Code.
 The API wraps individual API calls to OpenWeatherMap.com API and Google Maps API.
 
-#### Configuration ####
+#### Dependencies
+
+The following dependencies are required to build and run this project from source files:
+
+- Java 8
+- Maven
+
+#### Configuration
 
 The following configuration options are accessible from the file config.json in the root directory:
 
@@ -17,7 +24,7 @@ supply individual API keys for OpenWeatherMap and Google APIs.
 - https://openweathermap.org/api
 - https://cloud.google.com/maps-platform/#get-started
 
-#### Running Server ####
+#### Running Server
 
 To run this server from source files, simply run the following command from the root directory:
 
