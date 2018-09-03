@@ -1,0 +1,15 @@
+{
+    "http.port": 8081,
+	"apis": {
+		"google": {
+			"key": "INSERT_GOOGLE_API_KEY_HERE",
+			"host.maps": "maps.googleapis.com",
+			"ssl": true
+		},
+		"openWeatherMap": {
+			"key": "INSERT_OPEN_WEATHER_MAP_API_KEY_HERE",
+			"host": "api.openweathermap.org",
+			"ssl": true
+		}
+	}
+}
