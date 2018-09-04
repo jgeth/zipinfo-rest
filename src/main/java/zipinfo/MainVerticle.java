@@ -21,7 +21,7 @@ public void start() {
 	Router router = Router.router(vertx);
 
 	// Zip Code Info end-point
-	router.get("/:zip_code")
+	router.get("/api/:zip_code")
 		// Add Regex validation to ensure resource is a valid Zip Code format
 		.handler(HTTPRequestValidationHandler.create()
 			.addPathParamWithPattern("zip_code", "[0-9]{5}(-[0-9]{4})?"))

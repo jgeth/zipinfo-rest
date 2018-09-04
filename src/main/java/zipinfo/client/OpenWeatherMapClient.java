@@ -58,7 +58,7 @@ public class OpenWeatherMapClient {
 				System.out.println(data);
 
 				// Successful query results in an API result "code" of 200
-				if (data.getInteger("cod") == 200) {
+				if (data.getValue("cod") instanceof Integer && data.getInteger("cod") == 200) {
 					handler.handle(Future.succeededFuture(new JsonObject()
 						.put("coord", data.getJsonObject("coord"))
 						.put("temp", data.getJsonObject("main").getDouble("temp"))
