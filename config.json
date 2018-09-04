@@ -1,5 +1,5 @@
 {
-    "http.port": 8081,
+    "http.port": 8080,
 	"apis": {
 		"google": {
 			"key": "INSERT_GOOGLE_API_KEY_HERE",
